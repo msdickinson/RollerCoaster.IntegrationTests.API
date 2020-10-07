@@ -1,6 +1,6 @@
 # RollerCoaster.IntegrationTests.API
 
-A Integration Test API for Roller Coaster APIs
+Integration Test API for Roller Coaster APIs
 
 Features
 * Runs off REST
