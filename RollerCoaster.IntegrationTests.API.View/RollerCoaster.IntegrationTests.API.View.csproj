@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AzureFunctionsVersion>v3</AzureFunctionsVersion>
+    <ApplicationIcon>T.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Remove="C:\Users\marks\.nuget\packages\dickinsonbros.cosmos\2.0.0\contentFiles\any\netstandard2.1\ThirdPartyNotice.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="appsettings.DEBUG.json">
+      <DependentUpon>appsettings.json</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="DickinsonBros.Cosmos" Version="2.0.0" />
+    <PackageReference Include="DickinsonBros.DataTable" Version="2.0.1" />
+    <PackageReference Include="DickinsonBros.IntegrationTest" Version="4.0.0" />
+    <PackageReference Include="DickinsonBros.DateTime" Version="3.0.0" />
+    <PackageReference Include="DickinsonBros.DurableRest" Version="7.0.0" />
+    <PackageReference Include="DickinsonBros.Encryption.Certificate" Version="6.1.0" />
+    <PackageReference Include="DickinsonBros.Logger" Version="3.0.0" />
+    <PackageReference Include="DickinsonBros.Guid" Version="3.0.0" />
+    <PackageReference Include="DickinsonBros.Redactor" Version="4.0.0" />
+    <PackageReference Include="DickinsonBros.SQL" Version="4.0.0" />
+    <PackageReference Include="DickinsonBros.Stopwatch" Version="4.0.0" />
+    <PackageReference Include="DickinsonBros.Telemetry" Version="6.0.0" />
+    <PackageReference Include="Elasticsearch.Net" Version="7.9.0" />
+    <PackageReference Include="Elasticsearch.Net.Aws" Version="7.0.5" />
+    <PackageReference Include="Microsoft.Azure.Functions.Extensions" Version="1.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="3.1.8" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.8" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.8" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.8" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.1.8" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="3.1.8" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="3.1.8" />
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="3.0.9" />
+    <PackageReference Include="Serilog" Version="2.10.0" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="3.0.1" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="3.1.0" />
+    <PackageReference Include="Serilog.Sinks.Async" Version="1.4.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+    <PackageReference Include="Serilog.Sinks.Elasticsearch" Version="8.4.1" />
+    <PackageReference Include="Serilog.Sinks.Splunk" Version="3.4.0" />
+    <PackageReference Include="System.Collections" Version="4.3.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RollerCoaster.IntegrationTests.API.Abstractions\RollerCoaster.IntegrationTests.API.Abstractions.csproj" />
+    <ProjectReference Include="..\RollerCoaster.IntegrationTests.API.Infrastructure\RollerCoaster.IntegrationTests.API.Infrastructure.csproj" />
+    <ProjectReference Include="..\RollerCoaster.IntegrationTests.API.Logic\RollerCoaster.IntegrationTests.API.Logic.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="host.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="local.settings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+</Project>

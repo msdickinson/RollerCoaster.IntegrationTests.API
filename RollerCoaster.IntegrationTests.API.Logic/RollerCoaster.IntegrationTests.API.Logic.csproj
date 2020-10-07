@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DickinsonBros.IntegrationTest" Version="4.0.0" />
+    <PackageReference Include="DickinsonBros.Logger.Abstractions" Version="2.0.0" />
+    <PackageReference Include="DickinsonBros.NoSQLService.Abstractions" Version="2.0.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.1.2" />
+    <PackageReference Include="DickinsonBros.DateTime" Version="3.0.0" />
+    <PackageReference Include="RollerCoaster.Account.Proxy" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RollerCoaster.IntegrationTests.API.Abstractions\RollerCoaster.IntegrationTests.API.Abstractions.csproj" />
+    <ProjectReference Include="..\RollerCoaster.IntegrationTests.API.Infrastructure\RollerCoaster.IntegrationTests.API.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RollerCoaster.IntegrationTests.API.View", "RollerCoaster.IntegrationTests.API.View\RollerCoaster.IntegrationTests.API.View.csproj", "{5678AF40-6692-4F18-BA01-33B678D4F34A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 View", "1 View", "{60F0EB8A-1189-4A71-96ED-97D83948666D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RollerCoaster.IntegrationTests.API.View.Tests", "RollerCoaster.IntegrationTests.API.View.Tests\RollerCoaster.IntegrationTests.API.View.Tests.csproj", "{46C49CF3-D606-4C9E-AC61-B7136F8431C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Infrastructure", "3 Infrastructure", "{3BB0A0DC-E835-4CB9-AFF7-CE7E357CFF6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Logic", "2 Logic", "{11328615-4770-4B33-862A-D060A451A90A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 Abstractions", "0 Abstractions", "{48F70EC0-FFA7-40E1-80E9-7F3756BC3258}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RollerCoaster.IntegrationTests.API.Logic", "RollerCoaster.IntegrationTests.API.Logic\RollerCoaster.IntegrationTests.API.Logic.csproj", "{3D95BF12-7B8C-4A87-A1BD-BF1638331228}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RollerCoaster.IntegrationTests.API.Logic.Tests", "RollerCoaster.IntegrationTests.API.Logic.Tests\RollerCoaster.IntegrationTests.API.Logic.Tests.csproj", "{8BD22FF8-0ECB-41E4-8DBB-56B7DCB6A6BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RollerCoaster.IntegrationTests.API.Infrastructure", "RollerCoaster.IntegrationTests.API.Infrastructure\RollerCoaster.IntegrationTests.API.Infrastructure.csproj", "{5E004F20-8D64-49CF-9F33-FFD194FA339B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RollerCoaster.IntegrationTests.API.Infrastructure.Tests", "RollerCoaster.IntegrationTests.API.Infrastructure.Tests\RollerCoaster.IntegrationTests.API.Infrastructure.Tests.csproj", "{7491D5FC-3B54-435B-969D-2DA979200A63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RollerCoaster.IntegrationTests.API.Abstractions", "RollerCoaster.IntegrationTests.API.Abstractions\RollerCoaster.IntegrationTests.API.Abstractions.csproj", "{50634052-DC68-49C3-85D0-367C84E8F0EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RollerCoaster.IntegrationTests.API.Abstractions.Tests", "RollerCoaster.IntegrationTests.API.Abstractions.Tests\RollerCoaster.IntegrationTests.API.Abstractions.Tests.csproj", "{18089DC7-0EF6-46EF-90AE-66CFB8077926}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9 Scripts", "9 Scripts", "{0F4DD330-EF15-40B2-81AE-AA99E9F89434}"
+	ProjectSection(SolutionItems) = preProject
+		RollerCoaster.IntegrationTests.API.runsettings = RollerCoaster.IntegrationTests.API.runsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5678AF40-6692-4F18-BA01-33B678D4F34A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5678AF40-6692-4F18-BA01-33B678D4F34A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5678AF40-6692-4F18-BA01-33B678D4F34A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5678AF40-6692-4F18-BA01-33B678D4F34A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46C49CF3-D606-4C9E-AC61-B7136F8431C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46C49CF3-D606-4C9E-AC61-B7136F8431C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46C49CF3-D606-4C9E-AC61-B7136F8431C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46C49CF3-D606-4C9E-AC61-B7136F8431C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D95BF12-7B8C-4A87-A1BD-BF1638331228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D95BF12-7B8C-4A87-A1BD-BF1638331228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D95BF12-7B8C-4A87-A1BD-BF1638331228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D95BF12-7B8C-4A87-A1BD-BF1638331228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BD22FF8-0ECB-41E4-8DBB-56B7DCB6A6BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD22FF8-0ECB-41E4-8DBB-56B7DCB6A6BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD22FF8-0ECB-41E4-8DBB-56B7DCB6A6BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD22FF8-0ECB-41E4-8DBB-56B7DCB6A6BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E004F20-8D64-49CF-9F33-FFD194FA339B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E004F20-8D64-49CF-9F33-FFD194FA339B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E004F20-8D64-49CF-9F33-FFD194FA339B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E004F20-8D64-49CF-9F33-FFD194FA339B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7491D5FC-3B54-435B-969D-2DA979200A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7491D5FC-3B54-435B-969D-2DA979200A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7491D5FC-3B54-435B-969D-2DA979200A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7491D5FC-3B54-435B-969D-2DA979200A63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50634052-DC68-49C3-85D0-367C84E8F0EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50634052-DC68-49C3-85D0-367C84E8F0EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50634052-DC68-49C3-85D0-367C84E8F0EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50634052-DC68-49C3-85D0-367C84E8F0EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18089DC7-0EF6-46EF-90AE-66CFB8077926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18089DC7-0EF6-46EF-90AE-66CFB8077926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18089DC7-0EF6-46EF-90AE-66CFB8077926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18089DC7-0EF6-46EF-90AE-66CFB8077926}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5678AF40-6692-4F18-BA01-33B678D4F34A} = {60F0EB8A-1189-4A71-96ED-97D83948666D}
+		{46C49CF3-D606-4C9E-AC61-B7136F8431C6} = {60F0EB8A-1189-4A71-96ED-97D83948666D}
+		{3D95BF12-7B8C-4A87-A1BD-BF1638331228} = {11328615-4770-4B33-862A-D060A451A90A}
+		{8BD22FF8-0ECB-41E4-8DBB-56B7DCB6A6BC} = {11328615-4770-4B33-862A-D060A451A90A}
+		{5E004F20-8D64-49CF-9F33-FFD194FA339B} = {3BB0A0DC-E835-4CB9-AFF7-CE7E357CFF6B}
+		{7491D5FC-3B54-435B-969D-2DA979200A63} = {3BB0A0DC-E835-4CB9-AFF7-CE7E357CFF6B}
+		{50634052-DC68-49C3-85D0-367C84E8F0EA} = {48F70EC0-FFA7-40E1-80E9-7F3756BC3258}
+		{18089DC7-0EF6-46EF-90AE-66CFB8077926} = {48F70EC0-FFA7-40E1-80E9-7F3756BC3258}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70CA92A3-6091-42D0-9A1F-C1A63396F598}
+	EndGlobalSection
+EndGlobal
