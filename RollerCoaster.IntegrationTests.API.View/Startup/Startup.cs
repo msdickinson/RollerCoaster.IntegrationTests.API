@@ -65,7 +65,7 @@ namespace RollerCoaster.IntegrationTests.API.View.Startup
         {
             services.AddOptions();
 
-            //#Stack Packages
+            //#Stack DickinsonBro Packages
             services.AddConfigurationEncryptionService();
             ConfigureLogging(services, configuration);
             services.AddDataTableService();
@@ -81,19 +81,12 @@ namespace RollerCoaster.IntegrationTests.API.View.Startup
             services.AddMemoryCache();
             services.AddIntegrationTestService();
 
-            services.AddAccountProxyService
-            (
-                new Uri(configuration[$"{nameof(AccountProxyOptions)}:{nameof(AccountProxyOptions.BaseURL)}"]),
-                new TimeSpan(0, 0, Convert.ToInt32(configuration[$"{nameof(AccountProxyOptions)}:{nameof(AccountProxyOptions.HttpClientTimeoutInSeconds)}"]))
-            );
+            //#Stack RollerCoaster Packages
+            services.AddAccountProxyService();
 
             //#Local Packages
-
-            //Services
             services.AddAccountDBService();
             services.AddCoasterDBService();
-
-            //Tests
             services.AddAccountAPITests();
         }
 
